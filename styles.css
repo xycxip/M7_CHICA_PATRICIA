@@ -1,6 +1,7 @@
 header{
-	color: teal;
+	color:  teal;
 	text-align: center;
+	font-family: sans-serif;
 }
 
 nav{
@@ -33,7 +34,12 @@ section{
 section h2{				/*centering the header and changing the color*/
 	text-align: center;
 	color:teal;
+	font-family: sans-serif;
 }
+p{
+	font-family: sans-serif;
+}
+
 figure img{
 	display: inherit;
 	width: 100%;
@@ -48,9 +54,11 @@ aside{					/*images included*/
 	width: 250px;
 	float: right;
 	margin-right: 150px;
+	font-family: sans-serif;
 }
 aside h3{			/*centering the header and changing the color*/
 	color:teal;
+	font-family: sans-serif;
 }
 footer{
 	border-color:#1a0033; /*closest approximation of the color*/
