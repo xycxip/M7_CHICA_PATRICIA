@@ -1,0 +1,64 @@
+header{
+	color: teal;
+	text-align: center;
+}
+
+nav{
+	text-align:center; 
+	width: 1px 0px; 
+	list-style: none;
+}
+ul { 
+	text-align: center;
+	background-color:  #1a0033;
+	list-style-type: none;
+    height: 35px;
+    padding: 8px 4px 8px 4px;
+ }
+
+li {
+	text-align: center;
+	display: inline;
+	padding:8px;
+    color: white;
+    text-decoration: underline;
+}
+
+section{
+	float: left;
+	width: 550px;
+	font-size: 15px;
+
+}
+section h2{				/*centering the header and changing the color*/
+	text-align: center;
+	color:teal;
+}
+figure img{
+	display: inherit;
+	width: 100%;
+	height: 150%;
+	margin-left: -5px;
+}
+aside{					/*images included*/
+	text-align: center;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	width: 250px;
+	float: right;
+	margin-right: 150px;
+}
+aside h3{			/*centering the header and changing the color*/
+	color:teal;
+}
+footer{
+	border-color:#1a0033; /*closest approximation of the color*/
+	border-width: 1.5px;
+	border-style: solid;
+	background-color:  #1a0033;
+	clear: both;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
