@@ -60,6 +60,22 @@ aside h3{			/*centering the header and changing the color*/
 	color:teal;
 	font-family: sans-serif;
 }
+form h4{			/*Color of the headers in the form*/
+	color:teal;
+	font-family: sans-serif;
+}
+form{				/*Form attributes*/
+	float:inherit;
+	box-sizing: border-box;
+	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	padding: 20px;
+}
+label{
+  
+  display: inline-block;
+}
+
 footer{
 	border-color:#1a0033; /*closest approximation of the color*/
 	border-width: 1.5px;
