@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Module 7 Practical</title>
+  <meta name="description" content="Module 7 practical example">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+	<header>
+		<h1>Contact Us</h1>
+		 <nav>
+   	 	<ul>
+   	 		<li class = "home"><a href = "index.html">Home</a></li>
+   	 		<li>About</li>
+   	 		<li class = "contact"><a href = "contact.html">Contact</a></li>
+   	 	</ul>
+   	 </nav>
+	</header>
+		<form action ="/action_page.php">
+
+			<!-- Name and email of the client -->
+			<label for = "fname">First Name:</label><br>
+			<input tyepe = "text" id = "fname" name = "fname"><br>
+			<label for = "lname">Last Name:</label><br>
+			<input tyepe = "text" id = "lname" name = "lname"><br>
+
+			<label for="email">Enter your email:</label><br>
+			<input type="email" id="email" name="email"><br>
+			<br>
+			
+			<!-- Type of Event -->
+			<h4> Special Event </h4> 
+			<input type="radio" id="birthday" name="event" value="birthday">
+			<label for ="birthday">Birthday</label><br> 
+			<input type="radio" id="graduation" name="event" value="graduation">
+			<label for ="other">Graduation</label><br> 
+			<input type="radio" id="wedding" name="event" value="wedding">
+			<label for ="wedding">Wedding</label><br>
+			<input type="radio" id="bshower" name="event" value="bshower">
+			<label for ="other">Baby Shower</label><br>
+			<input type="radio" id="other" name="event" value="other">
+			<label for ="wedding">Other</label><br> 
+
+			<!-- Location of the event -->
+			<h4> Location </h4>
+			<input type="checkbox" id="location" name="location" value="park">
+			<label for="status1">Park</label><br>
+			<input type="checkbox" id="location" name="location" value="school">
+			<label for="status2">School</label><br>
+			<input type="checkbox" id="location" name="location" value="church">
+			<label for="status3">Church</label><br>
+			<input type="checkbox" id="location" name="location" value="splocation">
+			<label for="status4">Special Location</label><br>
+			<br>
+
+			<!-- Date and time of the event -->
+			<h4>Date and Time of the Event</h4>
+			<label for="date">Date</label>
+			<input type="date" name="date">
+			<label for="time">Time</label> 
+			<input type="time" name="time">
+			<br>
+			
+			<!-- Additional information -->
+			<h4>Additional Details</h4>
+			<label for="message">Message:</label><br>
+			<textarea type="message" id="message" name="message"></textarea><br>
+			<br>
+
+			<input type="submit" value="Submit">
+
+		</form>
+		<br>
+
+
+    <footer>
+    	<p>&#124;  1234 Main St. Nowhere, CA 56780   &#124;&#124;  (555)123-4567  &#124;&#124;  This is an example site for educational purposes only.  &#124; </p>
+    </footer>
+	
+</body>
